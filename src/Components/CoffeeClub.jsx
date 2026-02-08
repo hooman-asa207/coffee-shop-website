@@ -7,7 +7,7 @@ export default function CoffeeClub() {
           <div className="flex items-center gap-x-6">
             <img
               className="xl:w-27.5 xl:h-24.5 lg:w-25 lg:h-22 w-20 h-17.5"
-              src="./image/club/diamond.png"
+              src="/image/club/diamond.png"
               alt="diamond"
             />
             <div className="flex flex-col gap-y-2">

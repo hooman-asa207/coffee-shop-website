@@ -41,7 +41,7 @@ export default function MobileHeader({
       >
         <header className="flex items-center justify-between pt-3 pb-5 border-b border-gray-300 dark:border-white/10">
           <div className="flex items-center gap-x-3.5">
-            <img className="size-10" src="./image/app-logo.png" alt="logo" />
+            <img className="size-10" src="/image/app-logo.png" alt="logo" />
             <svg className="w-25 h-13 fill-orange-300">
               <use href="#logo-type" />
             </svg>
@@ -224,7 +224,7 @@ export default function MobileHeader({
         ) : (
           <main className="flex flex-col justify-center items-center mt-10">
             <h3 className="text-lg font-DanaDemibold">سبد خرید شما خالیست :)</h3>
-            <img src="../../public/image/svgs/empty-cart.svg" alt=""  className="w-32"/>
+            <img src="/image/svgs/empty-cart.svg" alt=""  className="w-32"/>
           </main>
         )}
         {products.length > 0 && (

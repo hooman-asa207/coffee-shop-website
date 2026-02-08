@@ -6,7 +6,7 @@ export default function BlogsSection() {
     {
       id: crypto.randomUUID(),
       title: "طرز تهیه قهوه دمی با دستگاه اروپرس",
-      image: "../../../image/blogs/blog-1.png",
+      image: "/image/blogs/blog-1.png",
       date: {
         day: "21",
         month: "مرداد",
@@ -17,7 +17,7 @@ export default function BlogsSection() {
     {
       id: crypto.randomUUID(),
       title: "یک نوشیدنی هیجان انگیز و پرکالری برای شروع روز",
-      image: "../../../image/blogs/blog-2.png",
+      image: "/image/blogs/blog-2.png",
       date: {
         day: "21",
         month: "مرداد",
@@ -28,7 +28,7 @@ export default function BlogsSection() {
     {
       id: crypto.randomUUID(),
       title: "طرز تهیه یک فنجان کافه زینو برزیلی",
-      image: "../../../image/blogs/blog-3.png",
+      image: "/image/blogs/blog-3.png",
       date: {
         day: "21",
         month: "مرداد",
@@ -39,7 +39,7 @@ export default function BlogsSection() {
     {
       id: crypto.randomUUID(),
       title: "طرز تهیه قهوه دالگونا مناسب روز‌های کرونایی",
-      image: "../../../image/blogs/blog-4.png",
+      image: "/image/blogs/blog-4.png",
       date: {
         day: "21",
         month: "مرداد",

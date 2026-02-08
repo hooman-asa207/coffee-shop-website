@@ -15,7 +15,7 @@ export default function DesktopHeader({
       <div className="flex justify-between items-center blur-none w-full">
         {/* navbar and logo */}
         <nav className="flex items-center gap-x-9 h-14">
-          <img src="./image/app-logo.png" alt="logo" />
+          <img src="/image/app-logo.png" alt="logo" />
           <ul className="flex items-center gap-x-6 lg:gap-x-9 h-full leading-14 *:hover:text-orange-300 *:transition-colors">
             <li>
               <a href="#" className="text-orange-300">
@@ -87,7 +87,7 @@ export default function DesktopHeader({
                     <main className="flex flex-col items-center justify-center">
                       <span>سبد خرید شما خالیست :)</span>
                       <img
-                        src="../../public/image/svgs/empty-cart.svg"
+                        src="/image/svgs/empty-cart.svg"
                         alt=""
                         className="w-32"
                       />

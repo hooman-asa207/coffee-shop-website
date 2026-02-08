@@ -6,12 +6,12 @@ function Services() {
           <div className="flex items-center flex-col sm:flex-row gap-y-5 text-center lg:text-right gap-x-4">
             <img
               className="dark:hidden"
-              src="./image/svgs/services/pitcher.svg"
+              src="/image/svgs/services/pitcher.svg"
               alt="pitcher"
             />
             <img
               className="hidden dark:inline-block"
-              src="./image/svgs/services/pitcher-dark.svg"
+              src="/image/svgs/services/pitcher-dark.svg"
               alt="pitcher"
             />
             <div>
@@ -24,12 +24,12 @@ function Services() {
           <div className="flex items-center flex-col sm:flex-row gap-y-5 text-center lg:text-right gap-x-4">
             <img
               className="dark:hidden"
-              src="./image/svgs/services/express-delivery.svg"
+              src="/image/svgs/services/express-delivery.svg"
               alt="pitcher"
             />
             <img
               className="hidden dark:inline-block"
-              src="./image/svgs/services/express-delivery-dark.svg"
+              src="/image/svgs/services/express-delivery-dark.svg"
               alt="pitcher"
             />
             <div>
@@ -42,12 +42,12 @@ function Services() {
           <div className="flex items-center flex-col sm:flex-row gap-y-5 text-center lg:text-right gap-x-4">
             <img
               className="dark:hidden"
-              src="./image/svgs/services/coffee.svg"
+              src="/image/svgs/services/coffee.svg"
               alt="pitcher"
             />
             <img
               className="hidden dark:inline-block"
-              src="./image/svgs/services/coffee-dark.svg"
+              src="/image/svgs/services/coffee-dark.svg"
               alt="pitcher"
             />
             <div>
@@ -60,12 +60,12 @@ function Services() {
           <div className="flex items-center flex-col sm:flex-row gap-y-5 text-center lg:text-right gap-x-4">
             <img
               className="dark:hidden"
-              src="./image/svgs/services/support.svg"
+              src="/image/svgs/services/support.svg"
               alt="pitcher"
             />
             <img
               className="hidden dark:inline-block"
-              src="./image/svgs/services/support-dark.svg"
+              src="/image/svgs/services/support-dark.svg"
               alt="pitcher"
             />
             <div>
