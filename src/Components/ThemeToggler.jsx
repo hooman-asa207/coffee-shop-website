@@ -17,7 +17,7 @@ export default function ThemeToggler({
     >
       {showText && <span>{themeText}</span>}
       <svg
-        className="size-6 2xl:size-8 stroke-orange-200 cursor-pointer"
+        className="size-6 2xl:size-8 stroke-orange-300 cursor-pointer"
         id="theme-toggle-pc"
       >
         <use href={theme === "light" ? "#moon" : "#sun"} />

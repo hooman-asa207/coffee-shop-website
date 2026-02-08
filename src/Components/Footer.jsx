@@ -1,6 +1,9 @@
 function Footer() {
   return (
-    <section id="footer" className="relative bg-zinc-700 sm:px-10 px-4 sm:pt-15.5 pt-8 text-gray-300">
+    <section
+      id="footer"
+      className="relative bg-zinc-700 sm:px-10 px-4 sm:pt-15.5 pt-8 text-gray-300"
+    >
       {/* Curve and Chevrone */}
       <svg className="absolute hidden md:inline-block fill-gray-100 dark:fill-zinc-800 w-25 h-5.5 top-0 rotate-180 right-0 left-0 mx-auto">
         <use href="#curve" />
@@ -130,8 +133,8 @@ function Footer() {
           </div>
           <span className="xl:text-base sm:text-sm text-xs">
             تمام حقوق این رابط کاربری متعلق به
-            <span className="text-orange-200">سبزلرن</span> میباشد و دانشجوی این
-            دوره اجازه استفاده آن را در مصارف شخصی و تجاری ندارد.
+            <span className="text-orange-200">سبزلرن </span> میباشد و دانشجوی
+            این دوره اجازه استفاده آن را در مصارف شخصی و تجاری ندارد.
           </span>
         </div>
         <span className="xl:text-base sm:text-sm text-xs text-left" dir="ltr">
