@@ -6,7 +6,7 @@ export default function ContactUs() {
           <div className="xl:size-75 lg:size-57.5 sm:w-auto w-75 h-auto">
             <img
               className="size-full"
-              src="/image/contact.png"
+              src="./image/contact.png"
               alt="contact us"
             />
           </div>

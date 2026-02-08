@@ -5,27 +5,27 @@ export default function CategoryBanner() {
     {
       id: crypto.randomUUID(),
       title: "قهوه ترک",
-      image: "/image/categories/category1.png",
+      image: "./image/categories/category1.png",
     },
     {
       id: crypto.randomUUID(),
       title: "لوازم جانبی و تجهیزات",
-      image: "/image/categories/category2.png",
+      image: "./image/categories/category2.png",
     },
     {
       id: crypto.randomUUID(),
       title: "اسپرسو ساز",
-      image: "/image/categories/category3.png",
+      image: "./image/categories/category3.png",
     },
     {
       id: crypto.randomUUID(),
       title: "پک تستر قهوه",
-      image: "/image/categories/category4.png",
+      image: "./image/categories/category4.png",
     },
     {
       id: crypto.randomUUID(),
       title: "قهوه دمی و اسپرسو",
-      image: "/image/categories/category5.png",
+      image: "./image/categories/category5.png",
     },
   ];
 
