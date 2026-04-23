@@ -3,9 +3,6 @@ import ThemeToggler from "./ThemeToggler";
 import { CartProduct } from "./CartProduct";
 
 export default function MobileHeader({
-  theme,
-  toggleTheme,
-  showText,
   products,
   totalPrice,
   onRemove
@@ -170,9 +167,7 @@ export default function MobileHeader({
             classList={
               "flex items-center gap-x-2 flex-row-reverse text-orange-300"
             }
-            theme={theme}
-            toggleTheme={toggleTheme}
-            showText={showText}
+            showText={true}
           />
           <button className="flex items-center gap-x-2 flex-row-reverse text-orange-300">
             سبد خرید

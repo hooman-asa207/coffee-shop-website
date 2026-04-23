@@ -13,26 +13,13 @@ import Footer from "./Components/Footer";
 import products from "./Components/Products/data/products";
 
 export default function App() {
-  const [theme, setTheme] = useState("light");
   const [cartProducts, setCartProducts] = useState(() => {
     const saved = localStorage.getItem("cart");
     return saved ? JSON.parse(saved) : [];
   });
   const [totalPrice, setTotalPrice] = useState("");
 
-  // theme toggle
-  useEffect(() => {
-    const saved = localStorage.getItem("theme") || "light";
-    setTheme(saved);
-    document.documentElement.classList.toggle("dark", saved === "dark");
-  }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    document.documentElement.classList.toggle("dark", newTheme === "dark");
-    localStorage.setItem("theme", newTheme);
-  };
 
   // add / remove cart product
   function addToCart(id) {
@@ -60,17 +47,12 @@ export default function App() {
   return (
     <>
       <DesktopHeader
-        theme={theme}
-        toggleTheme={toggleTheme}
         showText={false}
         products={cartProducts}
         totalPrice={totalPrice}
         onRemove={removeCartProduct}
       />
       <MobileHeader
-        theme={theme}
-        toggleTheme={toggleTheme}
-        showText={true}
         products={cartProducts}
         totalPrice={totalPrice}
         onRemove={removeCartProduct}

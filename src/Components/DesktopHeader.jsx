@@ -1,15 +1,13 @@
 import "../index.css";
 import { CartProduct } from "./CartProduct";
 import ThemeToggler from "./ThemeToggler";
-
 export default function DesktopHeader({
-  theme,
-  toggleTheme,
   showText,
   products,
   totalPrice,
   onRemove
 }) {
+
   return (
     <header className="fixed md:flex hidden items-center z-20 bg-black/50 lg:w-9/10 w-95/100 h-24 top-9 left-5/10 translate-x-[-50%] lg:px-10 px-5 rounded-3xl text-gray-200 backdrop-blur-[5px]">
       <div className="flex justify-between items-center blur-none w-full">
@@ -115,8 +113,6 @@ export default function DesktopHeader({
               </div>
             </div>
             <ThemeToggler
-              theme={theme}
-              toggleTheme={toggleTheme}
               showText={showText}
             />
           </div>
