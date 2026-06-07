@@ -6,7 +6,7 @@ export default function ThemeToggler({ classList, showText }) {
 
   return (
     <div className={classList} onClick={toggleTheme}>
-      {showText && <span>{theme}</span>}
+      {showText && <span>{theme === "light" ? "تم تاریک" : "تم روشن"}</span>}
       <svg
         className="size-6 2xl:size-8 stroke-orange-300 cursor-pointer"
         id="theme-toggle-pc"
